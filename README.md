@@ -1,70 +1,111 @@
-# React.js and Tailwind CSS Assignment
+# Task Manager App - Week 3 Assignment
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+## Project Overview
 
-## Assignment Overview
+This project is a **React Task Manager App** built using React, JSX, Tailwind CSS, and TypeScript. It demonstrates:
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+* Component architecture
+* State management with React hooks
+* Theme management using `useContext`
+* Custom hooks (`useLocalStorage`) for persistent tasks
+* Responsive design with Tailwind CSS
+* Sample posts section
 
-## Getting Started
+---
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+## Features
 
-## Files Included
+1. **Task Management**
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+   * Add tasks
+   * Mark tasks as completed
+   * Delete tasks
+   * Filter tasks: All, Active, Completed
+   * Each completed task shows the completion date
 
-## Requirements
+2. **Theme Management**
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+   * Toggle between multiple color themes
+   * Themes include Light, Dark, Teal, Pink, Amber
+
+3. **Sample Posts**
+
+   * Static English posts for demonstration
+   * Scrollable and responsive layout
+
+4. **Responsive Design**
+
+   * Works on mobile, tablet, and desktop
+   * Centered content and clean UI
+
+---
 
 ## Project Structure
 
 ```
 src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
+ ├── components/
+ │    ├── Button.tsx
+ │    ├── TaskManager.tsx
+ │    └── ...
+ ├── context/
+ │    └── ThemeContext.tsx
+ ├── hooks/
+ │    └── useLocalStorage.ts
+ ├── App.tsx
+ ├── main.tsx
+ └── index.css
+package.json
+vite.config.ts
+postcss.config.js
+tailwind.config.js
 ```
 
-## Submission
+---
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+## Setup Instructions
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+1. **Clone the repository**
 
-## Resources
+```bash
+git clone https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-KyUCOMRADE
+cd react-js-jsx-and-css-mastering-front-end-development-KyUCOMRADE
+```
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Start the development server**
+
+```bash
+npm run dev
+```
+
+4. **Build for production**
+
+```bash
+npm run build
+```
+
+---
+
+## Deployment
+
+* Deploy to **Vercel** or **Netlify**:
+
+  * Build command: `vite build`
+  * Output directory: `dist`
+
+* App will be live at the URL provided by the hosting platform.
+
+---
+
+## Credits
+
+* Built by Joseph Chege for Week 3 React.js Front-End Development Assignment.
+* Uses React, Tailwind CSS, and TypeScript.
+
+© 2025 Task Manager App. All rights reserved.
