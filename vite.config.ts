@@ -14,5 +14,5 @@ export default defineConfig({
     host: true,
     port: Number(process.env.PORT) || 4173,
     allowedHosts: ['task-app-9whz.onrender.com'],
-  }
+  },
 })
