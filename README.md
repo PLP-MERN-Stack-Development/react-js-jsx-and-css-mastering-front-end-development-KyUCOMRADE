@@ -109,6 +109,18 @@ npm run build
 
 ---
 
+## Screenshots
+
+### Task Manager
+![Task Manager](public/screenshots/task-manager.jpg)
+
+### Theme Switching
+![Theme Switching](public/screenshots/theme-switch.jpg)
+
+### Mobile View
+![Mobile View](public/screenshots/mobile-view.jpg)
+
+---
 ## Credits
 
 * Built by Joseph Chege for Week 3 React.js Front-End Development Assignment.
