@@ -100,12 +100,12 @@ npm run build
 
 ## Deployment
 
-* Deploy to **Vercel** or **Netlify**:
+* Deploy to **Vercel** or **Netlify** or **Render**:
 
   * Build command: `vite build`
   * Output directory: `dist`
 
-* App will be live at the URL provided by the hosting platform.
+* App is live on `https://task-app-9whz.onrender.com`.
 
 ---
 
