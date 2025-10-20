@@ -45,15 +45,21 @@ This project is a **React Task Manager App** built using React, JSX, Tailwind CS
 ```
 src/
  ├── components/
- │    ├── Button.tsx
- │    ├── TaskManager.tsx
- │    └── ...
+ │    ├── Button.jsx
+ │    ├── TaskManager.jsx
+ │    └── Navbar.jsx
+ ├── pages/
+ │    └── Home.jsx
+ ├── utils/
+ │    └── helper.js
+ ├── api/
+ │    └── fetchData.js
  ├── context/
- │    └── ThemeContext.tsx
+ │    └── ThemeContext.jsx
  ├── hooks/
- │    └── useLocalStorage.ts
- ├── App.tsx
- ├── main.tsx
+ │    └── useLocalStorage.js
+ ├── App.jsx
+ ├── main.jsx
  └── index.css
 package.json
 vite.config.ts
